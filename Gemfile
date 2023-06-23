@@ -6,6 +6,8 @@ ruby "3.0.0"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.5"
 
+gem 'devise'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
@@ -30,6 +32,7 @@ gem "jbuilder"
 gem 'jquery-rails'
 
 # bootstrap and sass setup
+gem 'bootstrap_form'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'sass-rails', '>= 3.2'
 
