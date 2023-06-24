@@ -76,7 +76,7 @@ end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'rspec-rails', '~> 3.6'
-  gem 'factory_girl_rails'
+  gem 'factory_bot'
   gem 'rails-controller-testing'
   gem 'headless'
   gem 'capybara'
